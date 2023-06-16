@@ -13,14 +13,12 @@ const Somero = () => {
             <div className="App">
                 <header id="header">
                     <div className="center">
-                        {/* <!-- LOGO --> */}
                         <div id="logo">
                             <img src={logo} className="app-logo" alt="Logotipo" />
-                            <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                            <span id="brand">
                                 <strong>Ing.</strong> Edys Perez
                     </span>
                         </div>
-                        {/* <!-- MENU --> */}
                         <nav id="menu2">
                             <ul style={{ marginBottom: "0px" }}>
                                 <li>
@@ -31,12 +29,12 @@ const Somero = () => {
                                 </li>
                             </ul>
                         </nav>
-                        {/* <!-- LIMPIAR LOS FLOTADOS --> */}
+
                         <div className="clearfix"></div>
                     </div>
                 </header>
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '350px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Onshore" activeClassName="active">Onshore</NavLink>
@@ -47,8 +45,8 @@ const Somero = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="accordion-body tabcontent" /* style={{ float: 'left', width: '70%' }} */>
-                    <nav id="menu2" /* style={{ float: 'left', marginTop: -35, borderBottom: '1px solid #ccc', width: '105%' }} */>
+                <div className="accordion-body tabcontent">
+                    <nav id="menu2">
                         <ul>
                             <li>
                                 <NavLink to="/Somero" activeClassName="active">Pozos Someros</NavLink>
@@ -60,7 +58,7 @@ const Somero = () => {
                     </nav>
                 </div>
 
-                <div /* style={{ marginTop: 10, float: 'right', width: '72%' }} */
+                <div
                     onClick={() => guardarSomero(!somero)}
                     id="somero"
                     className="tabcontent">

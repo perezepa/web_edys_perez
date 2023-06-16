@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-/* Importar Componentes */
 import Principal from './pages/Principal';
 import InformacionPersonal from './pages/InformacionPersonal';
 import Datos from './pages/Datos';

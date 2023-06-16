@@ -10,14 +10,12 @@ const DatosPerfilLaboral = () => {
         <Fragment>
             <header id="header">
                 <div className="center">
-                    {/* <!-- LOGO --> */}
                     <div id="logo">
                         <img src={logo} className="app-logo" alt="Logotipo" />
-                        <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                        <span id="brand">
                             <strong>Ing.</strong> Edys Perez
                         </span>
                     </div>
-                    {/* <!-- MENU --> */}
                     <nav id="menu2">
                         <ul>
                             <li>
@@ -29,14 +27,12 @@ const DatosPerfilLaboral = () => {
                         </ul>
                     </nav>
 
-                    {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                     <div className="clearfix"></div>
                 </div>
             </header>
             <div className="panel">
-                {/* <!-- MENU --> */}
-                <div /* style={{ width: '100%' }} */>
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '400px' }} */>
+                <div>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/DatosPerfilLaboral" activeClassName="active">Datos Perfil Laboral</NavLink>
@@ -44,7 +40,7 @@ const DatosPerfilLaboral = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="box-textos" /* style={{ float: 'left', width: '70%' }} */>
+                <div className="box-textos">
                     <table id="one-column-emphasis">
                         <tbody>
                             <tr>

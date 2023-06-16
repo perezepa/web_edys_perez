@@ -1,7 +1,5 @@
 export function obtenerEdad(birthYear) {
 
-    // Si la fecha es correcta, calculamos la edad
-
     if (typeof birthYear != "string" && birthYear && Number(birthYear.getTime())) {
         birthYear = new Date(birthYear, "yyyy-MM-dd");
     }
@@ -32,10 +30,6 @@ export function obtenerEdad(birthYear) {
 
     let hoy = new Date().getFullYear();
     let edad = hoy - ano;
-
-/*     if (mes === '9') {
-        mesString = 'Enero';
-    } */
 
     return([{dia, mes, ano},
         {mesString},

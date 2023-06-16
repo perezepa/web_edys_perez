@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-//import logo from '../img/logo.jpg';
 import { NavLink } from 'react-router-dom';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
@@ -8,7 +7,6 @@ import '../css/App.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-// Importar Imagenes
 import img1 from '../img/procesoPerforacion1.jpg';
 import img2 from '../img/procesoPerforacion2.jpg';
 import img3 from '../img/procesoPerforacion3.jpg';
@@ -38,7 +36,6 @@ const ExperienciaLaboral = () => {
                     <div className="each-slide">
                         <div>
                             <span><strong>Fases Perforación</strong></span>
-                            {/* <img src={img1} alt="img1" /> */}
                             <img src={slideImages[0]} alt="img1" />
                         </div>
                     </div>
@@ -70,7 +67,7 @@ const ExperienciaLaboral = () => {
             <div className="App">
                 < Header />
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '400px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Onshore" activeClassName="active">Onshore</NavLink>

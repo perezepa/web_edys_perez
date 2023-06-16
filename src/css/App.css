@@ -1,14 +1,9 @@
-/* Selectores:
-body: Selector de Etiquetas
-#id: Selector de Tipo Id
-.classes: Selector de Tipo Clases
-*/
+
 body {
   text-align: center;
-  margin: 0px; /* Para Resetear los Bordes y el Padding por defecto */
+  margin: 0px;
   padding: 0px;
 
-  /* FUENTES */
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -102,11 +97,8 @@ body {
   background: #61dafb;
   width: 100%;
   height: 350px;
-  /*line-height: 320px;*/
   color: white;
   text-shadow: 0px 0px 5px #444;
-
-  /* DEGRADADO CSS */
   
   background: rgba(73,155,234,1);
   background: -moz-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
@@ -163,7 +155,6 @@ body {
 #content {
   width: 70%;
   float: left;
-  /*border: 1px solid red;*/
   min-height: 650px;
   margin-right: 20px;
 }
@@ -171,7 +162,6 @@ body {
 #sidebar {
   width: 25%;
   float: left;
-  /*border: 1px solid green;*/
 }
 
 .sidebar-item {
@@ -380,20 +370,17 @@ input[type="text"]:focus{
 }
 
 .newClasssupervisor {
-  /* background-color: red; */
   float: left;
   
 
 }
 
 .newClasscementacion {
-  /* background-color: red; */
   float: left;
 
 }
 
 .newClasssenior {
-  /* background-color: red; */
   float: left;
 }
 
@@ -440,7 +427,6 @@ input[type="text"]:focus{
   padding: 0 10px;
   display: block;
   background-color: #d0dafd;
-  /* overflow: hidden; */
 }
 
 table {
@@ -480,8 +466,6 @@ table {
   z-index: 20px;
 }
 
-/*****************************************************/
-/* Medias query */
 @media screen and ( min-width: 200px) and (max-width: 690px) {
   .center {
       width: 100%;
@@ -516,12 +500,6 @@ table {
       font-size: 9px;
   }
   #menu3 {
-/*         width: 25%;
-      height: 250px;
-      float: left;
-      display: flex;
-      justify-content: space-evenly;
-      font-size: 8px; */
       width: 25%;
       height: 0px;
       float: left;
@@ -530,9 +508,6 @@ table {
       font-size: 8px;
   }
   #menu3 ul {
-      /* display: flex;
-      width: 110px;
-      height: 300px; */
       display: flex;
       justify-content: space-between;
       width: 110px;
@@ -551,10 +526,6 @@ table {
       text-decoration: none;
   }
   .containerSlideshow {
-      /* width: 200px;
-      height: 340px;
-      margin: 10px 10px 10px 100px;
-      padding: 2px; */
       width: 250px;
       height: 339px;
       margin: 90px 10px 10px 50px;
@@ -569,8 +540,6 @@ table {
       margin-top: 30px !important;
   }
   .containerSlideshow img {
-      /* width: 90%;
-      height: 210px; */
       width: 90%;
       height: 90%;
       margin-top: 10px !important;
@@ -625,8 +594,6 @@ table {
   }
 }
 
-/*****************************************************/
-/* Medias query */
 @media screen and ( min-width: 700px) and (max-width: 1300px) {
   .center {
       width: 100%;

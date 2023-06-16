@@ -11,13 +11,8 @@ const birthYear = "1976-9-23";
 
 const Datos = () => {
 
-    // Obtener Edad
     const datosDate = obtenerEdad(birthYear);
-    // Extraer Valores
-    //let dia = datosDate[0].dia;
-    //let mes = datosDate[1].mesString[0].stringMes;
-    //let ano = datosDate[0].ano;
-    //let edad = datosDate[3];
+
     let misDatos = {
         dia: datosDate[0].dia,
         mes: datosDate[1].mesString[0].stringMes,
@@ -25,29 +20,19 @@ const Datos = () => {
         edad: datosDate[3]
     }
 
-    //console.log(dia);
-    //console.log(datosDate);
-    //console.log(datosDate[0]);
-    //console.log(datosDate[0].ano);
-    //console.log(datosDate[1]);
-    //console.log(datosDate[1].mesString[0].stringMes);
-    //console.log(datosDate[3]);
-
-    //console.log(edad.dia+' Sepiembre '+ edad.ano);
-
     return (
         <Fragment>
             <div className="App">
                 <header id="header">
                     <div className="center">
-                        {/* <!-- LOGO --> */}
+
                         <div id="logo">
                             <img src={logo} className="app-logo" alt="Logotipo" />
-                            <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                            <span id="brand">
                                 <strong>Ing.</strong> Edys Perez
                         </span>
                         </div>
-                        {/* <!-- MENU --> */}
+
                         <nav id="menu2">
                             <ul>
                                 <li>
@@ -59,14 +44,13 @@ const Datos = () => {
                             </ul>
                         </nav>
 
-                        {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                         <div className="clearfix"></div>
                     </div>
                 </header>
                 <div className="panel">
-                    {/* <!-- MENU --> */}
+
                     <div >
-                        <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '400px' }} */>
+                        <nav id="menu3">
                             <ul>
                                 <li>
                                     <NavLink to="/Datos" >Datos Personales</NavLink>
@@ -80,7 +64,7 @@ const Datos = () => {
                             </ul>
                         </nav>
                     </div>
-                    <div className="box-textos" /* style={{ float: 'left', width: '70%' }} */>
+                    <div className="box-textos" >
                         <table id="one-column-emphasis">
                             <tbody>
                                 <tr>

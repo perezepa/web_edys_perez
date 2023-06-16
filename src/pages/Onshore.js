@@ -5,10 +5,8 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import '../css/App.css';
 
-//import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 
-// Importar Imagenes
 import img1 from '../img/onshore1.jpg';
 import img2 from '../img/onshore2.jpg';
 import img3 from '../img/onshore3.jpg';
@@ -38,7 +36,6 @@ const Onshore = () => {
                     <div className="each-slide">
                         <div>
                             <span style={{ display: 'block', margin: 'auto' }}><strong>Onshore: Somero - Profundo</strong></span>
-                            {/* <img src={img1} alt="img1" /> */}
                             <img src={slideImages[0]} alt="img1" style={{ display: 'block', margin: 'auto' }} />
                         </div>
                     </div>
@@ -70,14 +67,12 @@ const Onshore = () => {
             <div className="App">
                 <header id="header">
                     <div className="center">
-                        {/* <!-- LOGO --> */}
                         <div id="logo">
                             <img src={logo} className="app-logo" alt="Logotipo" />
-                            <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                            <span id="brand">
                                 <strong>Ing.</strong> Edys Perez
                     </span>
                         </div>
-                        {/* <!-- MENU --> */}
                         <nav id="menu2">
                             <ul style={{ marginBottom: "0px" }}>
                                 <li>
@@ -89,12 +84,11 @@ const Onshore = () => {
                             </ul>
                         </nav>
 
-                        {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                         <div className="clearfix"></div>
                     </div>
                 </header>
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '350px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Onshore" activeClassName="active">Onshore</NavLink>
@@ -105,8 +99,8 @@ const Onshore = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="accordion-body tabcontent" /* style={{ float: 'left', width: '70%' }} */>
-                    <nav id="menu2" /* style={{ float: 'left', marginTop: -35, borderBottom: '1px solid #ccc', width: '105%' }} */>
+                <div className="accordion-body tabcontent">
+                    <nav id="menu2">
                         <ul>
                             <li>
                                 <NavLink to="/Somero" activeClassName="active">Pozos Someros</NavLink>

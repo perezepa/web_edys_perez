@@ -12,14 +12,12 @@ const Header = () => {
 
         <header id="header">
             <div className="center">
-                {/* <!-- LOGO --> */}
                 <div id="logo">
                     <img src={logo} className="app-logo" alt="Logotipo" />
-                    <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                    <span id="brand">
                         <strong>Ing.</strong> Edys Perez
                     </span>
                 </div>
-                {/* <!-- MENU --> */}
                 <nav id="menu">
                     <ul>
                         <li>
@@ -40,7 +38,6 @@ const Header = () => {
                     </ul>
                 </nav>
 
-                {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                 <div className="clearfix"></div>
             </div>
         </header>

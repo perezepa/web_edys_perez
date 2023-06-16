@@ -11,14 +11,12 @@ const Direccion = () => {
         <Fragment>
             <header id="header">
                 <div className="center">
-                    {/* <!-- LOGO --> */}
                     <div id="logo">
                         <img src={logo} className="app-logo" alt="Logotipo" />
-                        <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                        <span id="brand">
                             <strong>Ing.</strong> Edys Perez
                         </span>
                     </div>
-                    {/* <!-- MENU --> */}
                     <nav id="menu2">
                         <ul>
                             <li>
@@ -30,14 +28,13 @@ const Direccion = () => {
                         </ul>
                     </nav>
 
-                    {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                     <div className="clearfix"></div>
                 </div>
             </header>
             <div className="panel">
-                {/* <!-- MENU --> */}
+
                 <div >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '400px'}} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Datos" >Datos Personales</NavLink>
@@ -51,7 +48,7 @@ const Direccion = () => {
                         </ul>
                     </nav>
                 </div>
-                <div id="ubicacion" className="box-textos" /* style={{ float: 'left', width: '70%' }} */>
+                <div id="ubicacion" className="box-textos">
                     <table id="one-column-emphasis">
                         <tbody>
                             <tr>

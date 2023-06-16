@@ -1,15 +1,12 @@
 import React, { Fragment } from 'react';
-//import logo from '../img/logo.jpg';
 import { NavLink } from 'react-router-dom';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import '../css/App.css';
 
 import Header from '../components/Header';
-//import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 
-// Importar Imagenes
 import img1 from '../img/grado1.jpg';
 import img2 from '../img/grado2.jpg';
 import img3 from '../img/grado3.jpg';
@@ -39,7 +36,6 @@ const InformacionPersonal = () => {
                     <div className="each-slide">
                         <div>
                             <span className="imageSpan"><strong>Grado - Ingeniero de Petroleos</strong></span>
-                            {/* <img src={img1} alt="img1" /> */}
                             <img src={slideImages[0]} alt="img1" className="imageStyle" />
                         </div>
                     </div>
@@ -70,9 +66,8 @@ const InformacionPersonal = () => {
         <Fragment>
             <div className="App">
                 < Header />
-                {/* <!-- MENU --> */}
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '400px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Datos" >Datos Personales</NavLink>

@@ -1,16 +1,12 @@
 import React, { Fragment } from 'react';
-//import logo from '../img/logo.jpg';
 import { NavLink } from 'react-router-dom';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import '../css/App.css';
 
-// Importar Componentes
 import Header from '../components/Header';
-//import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 
-// Importar Imagenes
 import img1 from '../img/1SOBREVIVENCIA2003.jpg';
 import img2 from '../img/2.1WELLPLANING2004.jpg';
 import img3 from '../img/2.2REGISTROS2004.jpg';
@@ -80,147 +76,146 @@ const Educacion = () => {
                 <Slide {...proprietes} >
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Taller - Sobrevivencia</strong></span>
-                            {/* <img src={img1} alt="img1" /> */}
-                            <img src={slideImages[0]} alt="img1" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Taller - Sobrevivencia</strong></span>
+                            <img src={slideImages[0]} alt="img1" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Wellplaning</strong></span>
-                            <img src={img2} alt="img2" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Wellplaning</strong></span>
+                            <img src={img2} alt="img2" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Registros</strong></span>
-                            <img src={img3} alt="img3" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Registros</strong></span>
+                            <img src={img3} alt="img3" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Taller - Fluidos de Perforación</strong></span>
-                            <img src={img4} alt="img4" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Taller - Fluidos de Perforación</strong></span>
+                            <img src={img4} alt="img4" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - SHA en las Operaciones</strong></span>
-                            <img src={img5} alt="img5" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - SHA en las Operaciones</strong></span>
+                            <img src={img5} alt="img5" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Perforación Horizontal</strong></span>
-                            <img src={img6} alt="img6" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Perforación Horizontal</strong></span>
+                            <img src={img6} alt="img6" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Seminario - Vassa</strong></span>
-                            <img src={img61} alt="img61" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Seminario - Vassa</strong></span>
+                            <img src={img61} alt="img61" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Basico de H2S</strong></span>
-                            <img src={img7} alt="img7" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Basico de H2S</strong></span>
+                            <img src={img7} alt="img7" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Horizontal and Multilateral Wells</strong></span>
-                            <img src={img8} alt="img8" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Horizontal and Multilateral Wells</strong></span>
+                            <img src={img8} alt="img8" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Wellcat</strong></span>
-                            <img src={img9} alt="img9" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Wellcat</strong></span>
+                            <img src={img9} alt="img9" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Cementaciones Remediales</strong></span>
-                            <img src={img10} alt="img10" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Cementaciones Remediales</strong></span>
+                            <img src={img10} alt="img10" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Casing Seat/Stress Check</strong></span>
-                            <img src={img11} alt="img11" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Casing Seat/Stress Check</strong></span>
+                            <img src={img11} alt="img11" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Perforación en Tiempo Real</strong></span>
-                            <img src={img12} alt="img12" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Perforación en Tiempo Real</strong></span>
+                            <img src={img12} alt="img12" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Diseño Revestidores</strong></span>
-                            <img src={img13} alt="img13" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Diseño Revestidores</strong></span>
+                            <img src={img13} alt="img13" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Well Control</strong></span>
-                            <img src={img14} alt="img14" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Well Control</strong></span>
+                            <img src={img14} alt="img14" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Work Over</strong></span>
-                            <img src={img15} alt="img15" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Work Over</strong></span>
+                            <img src={img15} alt="img15" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Casing Seat</strong></span>
-                            <img src={img16} alt="img16" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Casing Seat</strong></span>
+                            <img src={img16} alt="img16" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Stress Check</strong></span>
-                            <img src={img17} alt="img17" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Stress Check</strong></span>
+                            <img src={img17} alt="img17" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - WellPlan</strong></span>
-                            <img src={img18} alt="img18" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - WellPlan</strong></span>
+                            <img src={img18} alt="img18" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - DrillWorks</strong></span>
-                            <img src={img19} alt="img19" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - DrillWorks</strong></span>
+                            <img src={img19} alt="img19" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Fractura Hidráulica</strong></span>
-                            <img src={img20} alt="img20" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Fractura Hidráulica</strong></span>
+                            <img src={img20} alt="img20" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Congreso SPE</strong></span>
-                            <img src={img21} alt="img21" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Congreso SPE</strong></span>
+                            <img src={img21} alt="img21" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Manejo Defensivo</strong></span>
-                            <img src={img22} alt="img22" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Manejo Defensivo</strong></span>
+                            <img src={img22} alt="img22" className="imageStyle" />
                         </div>
                     </div>
                     <div className="each-slide">
                         <div>
-                            <span className="imageSpan" /* style={{ display: 'block', margin: 'auto' }} */><strong>Curso - Level Fundamentals English</strong></span>
-                            <img src={img23} alt="img22" className="imageStyle" /* style={{ display: 'block', margin: 'auto' }} */ />
+                            <span className="imageSpan"><strong>Curso - Level Fundamentals English</strong></span>
+                            <img src={img23} alt="img22" className="imageStyle" />
                         </div>
                     </div>
                 </Slide>
@@ -233,7 +228,7 @@ const Educacion = () => {
             <div className="App">
                 < Header />
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '400px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Pregrado" activeClassName="active">Pregrado</NavLink>
@@ -248,13 +243,7 @@ const Educacion = () => {
                     </nav>
                 </div>
                 < Slideshow />
-                {/* <div className="accordion-body tabcontent" style={{ float: 'left', width: '70%' }}>
-                    < Slider />
-                </div> */}
             </div>
-{/*             <div style={{ marginTop: 400 }}>
-                < Footer />
-            </div> */}
             < Footer />
         </Fragment>
     );

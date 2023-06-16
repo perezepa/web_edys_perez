@@ -10,12 +10,7 @@ const ProfundoOnshore = () => {
     const [cementacion, guardarCementacion] = useState(false);
     const [seniorperforacion, guardarSeniorperforacion] = useState(false);
 
-    /* const obtenerCementacion = () => {
-        guardarCementacion(!supervisor && !seniorperforacion ? !cementacion  : cementacion);
-    } */
-
     const obtenerSupervisor = () => {
-        // Cambiar clase de textos de los acordeones
         let newClasssupervisor = document.querySelector('#supervisor');
         newClasssupervisor.classList.add('newClasssupervisor')
 
@@ -33,7 +28,6 @@ const ProfundoOnshore = () => {
     }
 
     const obtenerCementacion = () => {
-        // Cambiar clase de textos de los acordeones
         let newClasssupervisor = document.querySelector('#supervisor');
         newClasssupervisor.classList.add('newClasssupervisor')
 
@@ -62,14 +56,12 @@ const ProfundoOnshore = () => {
             <div className="App">
                 <header id="header">
                     <div className="center">
-                        {/* <!-- LOGO --> */}
                         <div id="logo">
                             <img src={logo} className="app-logo" alt="Logotipo" />
-                            <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                            <span id="brand">
                                 <strong>Ing.</strong> Edys Perez
                             </span>
                         </div>
-                        {/* <!-- MENU --> */}
                         <nav id="menu2">
                             <ul style={{ marginBottom: "0px" }}>
                                 <li>
@@ -80,12 +72,11 @@ const ProfundoOnshore = () => {
                                 </li>
                             </ul>
                         </nav>
-                        {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                         <div className="clearfix"></div>
                     </div>
                 </header>
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '350px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Onshore" activeClassName="active">Onshore</NavLink>
@@ -96,8 +87,8 @@ const ProfundoOnshore = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="accordion-body tabcontent" /* style={{ float: 'left', width: '70%' }} */>
-                    <nav id="menu2" /* style={{ float: 'left', marginTop: -35, borderBottom: '1px solid #ccc', width: '105%' }} */>
+                <div className="accordion-body tabcontent">
+                    <nav id="menu2">
                         <ul>
                             <li>
                                 <NavLink to="/Somero" activeClassName="active">Pozos Someros</NavLink>
@@ -108,10 +99,7 @@ const ProfundoOnshore = () => {
                         </ul>
                     </nav>
                 </div>
-                <div /* style={{ marginTop: 10, float: 'right', width: '72%' }} */
-                    /* onClick={() => guardarSupervisor(!supervisor)} */
-                    /* onClick={() => guardarSupervisor(!cementacion && !seniorperforacion ? !supervisor : supervisor)} */
-                    onClick={obtenerSupervisor}
+                <div
                     id="supervisor"
                     className="tabcontent">
                     <p className="accordion accordion-body">Supervisor de Perforación y Completamiento</p>
@@ -173,10 +161,7 @@ const ProfundoOnshore = () => {
                     </div>
                 </div>
 
-                <div /* style={{ marginTop: 0, float: 'right', width: '72%' }} */
-                    /* onClick={() => guardarCementacion(!cementacion)} */
-                    /* onClick={() => guardarCementacion(!supervisor && !seniorperforacion ? !cementacion  : cementacion)} */
-                    /* onClick={obtenerCementacion} */
+                <div
                     onClick={obtenerCementacion}
                     id="cementacion"
                     className="tabcontent">
@@ -227,9 +212,7 @@ const ProfundoOnshore = () => {
                     </div>
                 </div>
 
-                <div /* style={{ marginTop: 0, float: 'right', width: '72%' }} */
-                    /* onClick={() => guardarSeniorperforacion(!seniorperforacion)} */
-                    /* onClick={() => guardarSeniorperforacion(!supervisor && !cementacion ? !seniorperforacion : seniorperforacion)} */
+                <div
                     onClick={obtenerSeniorperforacion}
                     id="seniorperforacion"
                     className="tabcontent">

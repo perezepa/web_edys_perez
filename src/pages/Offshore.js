@@ -7,7 +7,6 @@ import '../css/App.css';
 
 import Footer from '../components/Footer';
 
-// Importar Imagenes
 import img1 from '../img/offshore1.jpg';
 import img2 from '../img/offshore2.jpg';
 import img3 from '../img/offshore3.jpg';
@@ -37,7 +36,6 @@ const Offshore = () => {
                     <div className="each-slide">
                         <div>
                             <span style={{ display: 'block', margin: 'auto' }}><strong>Offshore - Lago de Maracaibo</strong></span>
-                            {/* <img src={img1} alt="img1" /> */}
                             <img src={slideImages[0]} alt="img1" style={{ display: 'block', margin: 'auto' }} />
                         </div>
                     </div>
@@ -69,14 +67,12 @@ const Offshore = () => {
             <div className="App">
                 <header id="header">
                     <div className="center">
-                        {/* <!-- LOGO --> */}
                         <div id="logo">
                             <img src={logo} className="app-logo" alt="Logotipo" />
-                            <span id="brand"> {/* <!-- brand es como la marca del sitio --> */}
+                            <span id="brand">
                                 <strong>Ing.</strong> Edys Perez
                             </span>
                         </div>
-                        {/* <!-- MENU --> */}
                         <nav id="menu2">
                             <ul style={{ marginBottom: "0px" }}>
                                 <li>
@@ -88,12 +84,11 @@ const Offshore = () => {
                             </ul>
                         </nav>
 
-                        {/* <!-- LIMPIAR LOS FLOTADOS --> */}
                         <div className="clearfix"></div>
                     </div>
                 </header>
                 <div className="panel" >
-                    <nav id="menu3" /* style={{ borderRight: '1px solid #ccc', height: '350px' }} */>
+                    <nav id="menu3">
                         <ul>
                             <li>
                                 <NavLink to="/Onshore" activeClassName="active">Onshore</NavLink>
@@ -104,8 +99,8 @@ const Offshore = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="accordion-body tabcontent" /* style={{ float: 'left', width: '70%' }} */>
-                    <nav id="menu2" /* style={{ float: 'left', marginTop: -35, borderBottom: '1px solid #ccc', width: '105%' }} */>
+                <div className="accordion-body tabcontent">
+                    <nav id="menu2">
                         <ul>
                             <li>
                                 <NavLink to="/ProfundoOffshore" activeClassName="active">Pozos Profundos</NavLink>
